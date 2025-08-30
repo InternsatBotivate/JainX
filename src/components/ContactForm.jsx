@@ -114,7 +114,7 @@ function ContactForm() {
             onChange={handleChange}
             required
             className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="John Doe"
+            placeholder="Enter Your name"
           />
         </div>
         
@@ -130,7 +130,7 @@ function ContactForm() {
             onChange={handleChange}
             required
             className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="john@example.com"
+            placeholder="abc@example.com"
           />
         </div>
         

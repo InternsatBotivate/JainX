@@ -201,7 +201,7 @@ export default function RegistrationModal({ isOpen, onClose, program }) {
                 <input
                   type="text" id="name" name="name" value={formData.name} onChange={handleChange} required
                   className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="John Doe"
+                  placeholder="Enter Your name"
                 />
               </div>
               {/* Email */}
@@ -210,7 +210,7 @@ export default function RegistrationModal({ isOpen, onClose, program }) {
                 <input
                   type="email" id="email" name="email" value={formData.email} onChange={handleChange} required
                   className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="johndoe@email.com"
+                  placeholder="abc@email.com"
                 />
               </div>
               {/* Phone */}
@@ -219,7 +219,7 @@ export default function RegistrationModal({ isOpen, onClose, program }) {
                 <input
                   type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} required
                   className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="+91 98765 43210"
+                  placeholder="Enter Your Phone number"
                 />
               </div>
               {/* Program */}
@@ -242,7 +242,7 @@ export default function RegistrationModal({ isOpen, onClose, program }) {
               <textarea
                 id="message" name="message" value={formData.message} onChange={handleChange} rows="4"
                 className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Example text"
+                placeholder="Share relevant background information"
               ></textarea>
             </div>
             {/* Submit */}

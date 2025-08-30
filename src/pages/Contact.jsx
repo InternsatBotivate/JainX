@@ -37,7 +37,7 @@ function Contact() {
                 <div>
                   <h3 className="text-xl font-bold mb-1">Phone</h3>
                   <p className="text-gray-700">
-                    <a href="tel:+919098562225" className="hover:text-blue-600 transition-colors">
+                    <a href="https://wa.me/919098562225" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
                       +91-9098562225
                     </a>
                   </p>

@@ -143,7 +143,7 @@ function Footer() {
                  <div className="mr-3 p-2 bg-gray-800 rounded-full group-hover:bg-amber-500 transition-colors duration-300">
                    <Phone className="h-5 w-5 text-amber-500 group-hover:text-white transition-colors duration-300" />
                  </div>
-                 <a href="tel:+919098562225" className="text-gray-300 group-hover:text-white transition-colors duration-300">+91-9098562225</a>
+                 <a href="https://wa.me/919098562225" target="_blank" rel="noopener noreferrer" className="text-gray-300 group-hover:text-white transition-colors duration-300">+91-9098562225</a>
                </li>
                <li className="flex items-center group">
                  <div className="mr-3 p-2 bg-gray-800 rounded-full group-hover:bg-amber-500 transition-colors duration-300">
@@ -160,11 +160,7 @@ function Footer() {
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               © {new Date().getFullYear()} Mastery Academy. All rights reserved.
             </p>
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-400 text-sm">Designed with</span>
-              <span className="text-red-500 animate-pulse">❤</span>
-              <span className="text-gray-400 text-sm">by Mastery Academy Team</span>
-            </div>
+           
           </div>
         </div>
       </div>
